@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Reward</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="giveaway-rewards">
+            <h2>GIVEAWAY REWARDS!</h2>
+            <div class="reward-list">
+                <img src="mimic-octopus.png" alt="Mimic Octopus">
+                <img src="kitsune.png" alt="Kitsune">
+                <img src="raccoon.png" alt="Raccoon">
+            </div>
+            <button id="claimBtn" class="claim-btn">CLAIM REWARD</button>
+        </div>
+        <div class="live-claimers">
+            <h3>LIVE CLAIMERS</h3>
+            <ul id="claimersList">
+                <li>shikiinwj claimed at 9:31:57 PM</li>
+                <li>tokizmaqh claimed at 9:31:59 PM</li>
+                <li>diprsh99 claimed Raccoon at 9:31:59 PM</li>
+                <li>kaidenVT12 claimed at 9:31:52 PM</li>
+                <li>AntH0wAyyu claimed at 9:31:50 PM</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7A4B34;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.giveaway-rewards {
+    margin-bottom: 20px;
+}
+
+.reward-list img {
+    width: 100px;
+    margin: 10px;
+}
+
+.claim-btn {
+    background-color: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.claim-btn:hover {
+    background-color: #FF8C00;
+}
+
+.live-claimers ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.live-claimers li {
+    margin: 5px 0;
+}
+document.getElementById("claimBtn").addEventListener("click", function() {
+    window.open("https://www.robiox.com.ua/games/126884695634066/Grow-a-Garden?privateServerLinkCode=09045780250982581980924608238109", "_blank");
+});
