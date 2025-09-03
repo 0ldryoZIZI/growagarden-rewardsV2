@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow a Garden</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #3e3a2b;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .rewards-section {
+            width: 60%;
+            text-align: center;
+            background-color: #4d3a2d;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .reward-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .reward-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        button {
+            background-color: #f4a261;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e76f51;
+        }
+
+        .live-claimers {
+            width: 35%;
+            background-color: #4d3a2d;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .live-claimers ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .live-claimers li {
+            background-color: #6f4f37;
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rewards-section">
+            <h1>GROW A GARDEN</h1>
+            <h3>CLAIM YOUR REWARDS NOW!</h3>
+            <div class="reward-icons">
+                <div class="reward-item">
+                    <img src="https://via.placeholder.com/150" alt="Mimic Octopus">
+                    <p>Mimic Octopus</p>
+                </div>
+                <div class="reward-item">
+                    <img src="https://via.placeholder.com/150" alt="Kitsune">
+                    <p>Kitsune</p>
+                </div>
+                <div class="reward-item">
+                    <img src="https://via.placeholder.com/150" alt="Raccoon">
+                    <p>Raccoon</p>
+                </div>
+            </div>
+            <button id="claimRewardBtn">CLAIM REWARD</button>
+        </div>
+        <div class="live-claimers">
+            <h3>LIVE CLAIMERS</h3>
+            <ul id="liveClaimersList">
+                <li>ishishebbus claimed at 12:05 PM</li>
+                <li>Kjandre1Y claimed at 12:03 PM</li>
+                <li>NoobMaster22 claimed at 12:02 PM</li>
+                <li>juiced111 claimed at 12:04 PM</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("claimRewardBtn").addEventListener("click", function() {
+            window.open("https://www.robiox.com.ua/games/126884695634066/Grow-a-Garden?privateServerLinkCode=09045780250982581980924608238109", "_blank");
+        });
+    </script>
+</body>
+</html>
